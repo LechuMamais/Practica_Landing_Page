@@ -1,0 +1,58 @@
+:root{
+    --border-green-dotted: 2px dotted #9ad79b;
+    --left-aside: calc(100vw - 180px);
+    --top-footer: calc(100vh - 4rem)
+}
+
+*{
+    background-color: black;
+    color: #A3E3A4;
+    padding: 0;
+    margin: 0;
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;;
+    overflow: hidden;
+}
+
+h1{
+    border-bottom: var(--border-green-dotted);
+    padding: 0.5rem;
+}
+
+.content{
+    padding: 1rem;
+    width: 100%;
+    border-top: var(--border-green-dotted);
+    border-bottom: var(--border-green-dotted);
+    margin: 1rem 0rem;
+}
+button{
+    background-color: #EFEFEF;
+    color: black;
+}
+
+.sidebar{
+    padding: 1rem;
+    position: relative;
+    left: var(--left-aside);
+    border: var(--border-green-dotted);
+    width: 8rem;
+    margin-bottom: 1rem;
+}
+
+
+.features{
+    text-align: center;
+    padding: 1rem;
+    border-top: var(--border-green-dotted);
+    border-bottom: var(--border-green-dotted);
+}
+
+footer{
+    position: fixed;
+    top: var(--top-footer);
+    width: 100%;
+    border-top: var(--border-green-dotted);
+    border-bottom: var(--border-green-dotted);
+    padding: 1rem;
+    text-align: center;
+}
